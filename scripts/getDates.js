@@ -84,3 +84,4 @@ enableSubmitButton();
 
 $password.keyup(PassLength).keyup(PassMatch).keyup(enableSubmitButton);
 $confirmPass.focus(PassMatch).keyup(PassMatch).keyup(enableSubmitButton);
+
