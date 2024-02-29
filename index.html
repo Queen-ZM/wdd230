@@ -3,16 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>"Noluthando - WDD230 - Web Frontend Development"</title>
+    <meta name="author" content="Noluthando Zilimbola-Mothata">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:url" content="">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <h1>Helo World</h1>
-    <h2>
-        need help
-    </h2>
-    <main>
+    <header>
+        <img src="images/Thando.jpg" alt="picture of myself" width="640" height="360">
+        <span>
+            Noluthando Zilimbola-Mothata
+        </span>
+    </header>
 
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" tittle="Chamber">Chamber</a></li>
+            <li><a href="#" tittle="Site Plan">Site Plan</a></li>
+            <li><a href="#" tittle="Form">Form</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>
+            WDDD 230: Web Frontend Development
+        </h1>
+
+        <hr>
+
+        <br>
+
+        <div class="column">
+            <section class="card wider">
+                <h3>Learning Activities</h3>    
+                <ul id="ul">
+                    <li><a href="#">Week 1:</a></li>
+                    
+                </ul>
+            </section>
+            <section class="card wider2">
+                <h3>Information</h3>
+                <div id="weather-card">
+                </div>
+                <p class="info-placeholder">Page Visits: <span id="visit-count">0</span></p>
+            </section>
+        </div>
     </main>
+
+        <footer>
+            <div id="footer-sect">
+                <p>&copy;<span id="currentYear"></span> | Noluthando Zilimbola-Mothata | South Africa ❤️</p>
+                <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+            </div>
+        </footer>
+
+        <script src="script/getDates.js"></script>
+
+   
 </body>
 </html>
