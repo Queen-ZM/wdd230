@@ -5,19 +5,7 @@
 }
 
 body {
-    background-color: linear-gradient(to right top,
-            #ffffff,
-            #c7b6cc,
-            #009eff,
-            #cd94d8,
-            #b672cc,
-            #b871f2,
-            #a938b3,
-            #892e8d,
-            #009eff,
-            #a72aab,
-            #9c22a7,
-            #bf16ce);
+    background-color: #fff;
 }
 
 header, main, footer {
@@ -28,7 +16,7 @@ header, main, footer {
 
 header {
     text-align: center;
-    background-color: #A8D1DF;
+    background-color: #1C06B4;
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
 }
@@ -43,7 +31,7 @@ main h2 {
     text-align: center;
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #333333;
+    background-color: #DB98F7;
     color: white;
 }
 
@@ -68,20 +56,20 @@ main section {
 .main-info section .colors h3 {
     text-align: center;
     margin-top: 2rem;
-    background-color: #A8D1DF;
+    background-color: #1C06B4;
 }
 
 .main-info section .colors1 h3 {
     text-align: center;
     margin-top: 2rem;
-    background-color: #333333;
+    background-color: #DB98F7;
 }
 
 .main-info section h3 {
     padding: 2rem;
     font-family: 'Playfair Display', serif;
     text-align: center;
-    background-color: #A8D1DF;
+    background-color: #1C06B4;
     color: white;
 }
 
@@ -96,7 +84,7 @@ main section {
 
 
 footer {
-    background-color: #1c98ed;
+    background-color: #1C06B4;
     color: white;
     padding: 1rem;
     text-align: center;
