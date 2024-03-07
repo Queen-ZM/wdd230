@@ -1,239 +1,372 @@
 :root {
-    --main-background-color: #d5bdaf;
-  --main-text-color: #000;
-  --main-font-family: 'Lora', serif;
+--main-background-color: #D6CCC2;
+--main-text-color: #000;
+--main-font-family: 'Lora', serif;
 }
 
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 
 body {
-    font-family: var(--main-font-family);
-    font-size: 16px;
+  font-family: var(--main-font-family);
+  font-size: 16px;
 
 }
 
 /*header styling...........*/
 header {
-    margin: 2rem auto;
-    background-color: var(--main-background-color);
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px 20px 0 0;
+  margin: 2rem auto;
+  background-color: var(--main-background-color);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px 20px 0 0;
 
 }
 
 header,
 main,
 footer {
-	max-width: 767px;
-	/*margin: 0 auto;*/
-    margin: 1rem auto;
-    padding: 1rem;
+  max-width: 767px;
+  /*margin: 0 auto;*/
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 header img {
-    width: 70px;
-    height: auto;
-    margin-right: 4.5rem;
+  width: 70px;
+  height: auto;
+  margin-right: 4.5rem;
 }
 
 img[Attributes] {
-    aspect-ratio: auto 640 / 360;
-  }
-
-h1 {
-    font-size: 1rem;
-    margin-right: 7.5rem;
-    font-size: x-small;
+  aspect-ratio: auto 640 / 360;
 }
 
-/*--------Navigation--------*/
+h1 {
+  font-size: 1rem;
+  margin-right: 7.5rem;
+  font-size: medium;
+}
+
+.mode {
+	position: absolute;
+	top: 1rem;
+	margin-right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+/*Hamburger menu...........*/
+
+.menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  
+}
+
+.menu::before {
+  content: "☰";
+}
+
+.menu.open::before {
+  content: "❌";
+}
+
+/* ---Nav--- */
 
 .navigation {
-	display: flex;
-	flex-direction: column;
-	list-style: none;
-	background-color: var(--main-background-color);
-	color: var(--main-text-color);
-    margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  margin-bottom: 0;
 }
 
 .navigation li {
-	display: none;
+  display: none;
 }
 
 .navigation li a {
-	display: block;
-	padding: 1rem;
-	text-align: center;
-	text-decoration: none;
-	color: var(--main-text-color);
-    font-weight: bold;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: bold;
 }
 .navigation li a:hover {
-	color: white;
-    background-color: #14213D;
-	font-weight: 700;
+  color: white;
+  background-color: #14213D;
+  font-weight: 700;
 }
 
 .open li {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 .open li a {
-	display: block;
+  display: block;
 }
 
 nav {
-	max-width: 767px;
-	margin: 1rem auto;
+  max-width: 767px;
+  margin: 1rem auto;
 }
 
-/*--------Main column-------*/
+.mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+/*main content*/
 
 .column {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
 }
 
 h2 {
-    border-bottom: 1px solid black;
-    margin-bottom: 2rem;
-    font-size: 12px;
-    text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+  font-size: 12px;
+  text-align: center;
 }
 
 .card {
-    
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 
 /*--------------------*/
 
 h3 {
-    background-color: #14213D;
-    color: white;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-    font-weight: bold;
+  background-color: #14213D;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 .card ul {
-    list-style-type: none;
-    margin: 10px;
+  list-style-type: none;
+  margin: 10px;
 }
 
 .card ul li a {
-    text-decoration: none;
-    padding: 10px;
-    font-weight: bold;
-    line-height: 1.6;
-    color: #0a2463;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #0a2463;
 }
 
 .card ul li a:hover {
-    color: #c1121f;
+  color: #c1121f;
 }
 
 .info-placeholder {
-    font-size: 18px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: 'Chivo', sans-serif;
-    font-weight: bold;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
 }
 
 /*footer*/
 
 footer {
-    margin: 2rem auto;
-    background-color: #d5bdaf;
-    padding: 1rem;
-    text-align: center;
-    line-height: 2.5;
-    font-family: 'Lora', serif;
-    font-size: 16px; /* Set the font size to 16px */
-    margin-top: 10px; /* Add some margin above the footer */
+  margin: 2rem auto;
+  background-color: #d5bdaf;
+  padding: 1rem;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Lora', serif;
 }
 
-.footer-sect p {
-    font-weight: bold;
-    font-size: 12px;
+#footer-sect p {
+  font-weight: bold;
+  font-size: 12px;
 }
-.description {
-    font-family: 'Lora', serif;
-    font-weight: bold;
-    
-    
-  }
+
+/*Weather CSS*/
+
+
+
+/* Styles for the current temperature text */
+#current-temp {
+  font-size: 72px; /* Set the font size to 72px */
+  font-weight: bold; /* Set the font weight to bold */
+  margin: 0; /* Remove the default margin */
+}
+
+/* Styles for the weather icon */
+#weather-icon {
+  width: 100px; /* Set the width to 100px */
+  height: 100px; /* Set the height to 100px */
+  margin-left: 10px; /* Add some margin between the icon and the temperature text */
+}
+
+/* Styles for the caption text */
+figcaption {
+  font-size: 24px; /* Set the font size to 24px */
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Add some margin above the text */
+}
+
+/* Styles for the footer */
+footer {
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Set the font size to 16px */
+  margin-top: 10px; /* Add some margin above the footer */
+}
+
+#weather-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #45474B;
+  color: #fff;
+}
+
+#temperature {
+  margin-right: 1rem;
+  font-weight: bold;
+  font-family: 'Lora', serif;
   
+}
+
+#weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+  border: none;
+}
+
+#description {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  
+  
+}
+
 @media (max-width: 600px) {
-    main {
-      flex-direction: column; /* Make the child elements stack vertically on small screens */
-    }
+  main {
+    flex-direction: column; /* Make the child elements stack vertically on small screens */
   }
+
+  #current-temp {
+    font-size: 48px; /* Reduce the font size on small screens */
+  }
+
+  #weather-icon {
+    width: 60px; /* Reduce the width of the icon on small screens */
+    height: 60px; /* Reduce the height of the icon on small screens */
+  }
+
+  figcaption {
+    font-size: 18px; /* Reduce the font size of the caption on small screens */
+  }
+}
 
 
 
 /*640 media query*/
 @media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	} 
+  nav ul {
+      display: flex;
+  }
+  nav ul li {
+      flex: 1 1 100%;
+  } 
 
-    h2 {
-        font-size: 1rem;
-        text-align: center;
-    }
-   
+  h2 {
+      font-size: 1rem;
+      text-align: center;
+  }
+ 
 
 }
 
 /* large view navigation ************************************/
 @media (min-width: 37.5em) {
-	h1 {
-		font-size: 2.5rem;
-		margin-right: 0;
-		text-align: center;
-	}
-	
-	h2 {
-		font-size: 2rem;
-		text-align: center;
-	}
+  h1 {
+      font-size: 2.5rem;
+      margin-right: 0;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 2rem;
+      text-align: center;
+  }
 
-	.navigation {
-		flex-direction: row;
-	}
+  #menu {
+      display: none; /* hide hamburger button */
+  }
 
-	.navigation li {
-		display: block;
-		flex: 1 1 100%;
-	}
-	
-	.stuff {
-		margin: 1rem auto;
-	}
+  .navigation {
+      flex-direction: row;
+  }
+
+  .navigation li {
+      display: block;
+      flex: 1 1 100%;
+  }
+  
+  .stuff {
+      margin: 1rem auto;
+  }
 }
 
+/*@media (min-width: 768px) {
+  .column {
+      grid-template-columns: 1fr 1fr;
+  }
 
+  h2 {
+      font-size: 30px;
+      text-align: left;
+  }
 
+  h1 {
+      font-size: 30px;
+  }
 
+  img {
+      width: 200px;
+  }
 
-
+  #footer-sect p {
+      font-size: 20px;
+      font-weight: bold;
+  }
+}*/
