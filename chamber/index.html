@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="author" content="Noluthando Zilimbola-Mothata">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://queen-zm.github.io/wdd230/">
+    <meta property="og:image" content="https://queen-zm.github.io/wdd230/week2/images/jozi.jpg">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+          <img src="./images/logo.w.webp" alt="Logo">
+      </div>
+      <div class="site-name">
+          <h1>My City Chamber</h1>
+      </div>
+      <nav class="nav-links">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="directory.html">Directory</a></li>
+              <li><a href="join.html">Join</a></li>
+              <li><a href="contact.html">Contact</a></li>
+  
+          </ul>
+      </nav>
+      <div class="social-media"> <!--Instead of using images for your social links, you can you this style and it called font awesome.
+          I have added the ref link in you head.-->
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+  
+      <div id="mode">
+        🌚
+      </div>
+        
+    </header>
+  
+      <main>
+        <div class="hero">
+          <picture>
+            <source srcset="images/wdd230S.webp" media="(max-widht: 500px)">
+            <source srcset="image/wdd230M.webp" media="(max-width 1000px)">
+            <img src="images/jozi1.jpg" alt="week6" width="2" height="1">
+          </picture>
+          <div class="herobutton">
+            <a href="join.html" title="join" clas="btn-primary">Join The Chamber</a>
+          </div>
+        </div>
+        
+        <div class="main">
+          <section>
+            <h2>
+              Events
+            </h2>
+            <h3>
+              My City Commerce
+            </h3>
+            <p>
+              Unite with us as we have our grand openingof my city Chamber 
+              of Commerce, Saturday @ 17h00 pm. 
+            </p>
+            <a href="#"></a>
+            <h3> 
+              Forum week
+            </h3>
+            <p>
+              Connect with other businesses that in your City
+            </p>
+            <a href="#">Register Now</a>
+          </section>
+          <section>
+            <h2>
+              Weather
+            </h2>
+            
+            <!----div id="weather-section"----->
+                <img id="weather-icon" src="#" alt="Weather Icon">
+                <p><span id="current-temperature">--</span></p>
+                <p><span id="current-description">--</span></p>
+                <h3>3-Day Forecast:</h3>
+                <ul id="forecast-list"></ul>
+                  <!-- Forecast items will be added dynamically here -->
+              
+                <!--<p>Current Temperature: <span id="temperature">45°F</span></p>
+                <p>Current Wind Speed: <span id="windSpeed">8 mph</span></p>
+                <p>Wind Chill Factor: <span id="windChillValue">Calculating...</span></p>-->
+            <!----/div---->
+           
+          </section>
+        </div>       
+       
+  
+        <div class="adverts">
+          <section>
+            <h3>
+              Spokie and Daughters
+            </h3>
+            <p>
+              "African Fashion Design's"
+            </p>
+            <img src="images/sad.w.webp" alt="S&D logo" width="60">
+  
+            <p>+27 73 764 0364</p>
+            <p><span>https://queen-zm.github.io/wwr/s&d/home.html</span></p>
+          </section>
+          <section class="card-1">
+            <h3>
+              Gold Reef City
+            </h3>
+            <p><span>"The best Theme park in Africa"</span></p>
+            <img src="images/gold reef city.w.webp" alt="thankful" width="60">
+  
+            <p>+27 11 248 6800</p>
+            <p><span>https://www.goldreefcity.co.za</span></p>
+          </section>
+          <section class="card-1">
+            <h3>
+              Vilakazi Street
+            </h3>
+            <p><span>"Come view the only street in the world<br>
+                  that houses two Noble price winners"</span></p>
+            <img src="images/vilakazi-street.w.webp" alt="Logo" width="60">
+            <p>+27 11 720 5678</p>
+            <p><span>contact@vilakazistreet.com</span></p>
+          </section>
+        </div>
+      </main>
+      <br>
+  
+    <footer>
+        <div id="footer-sect">
+            <p>&copy;<span id="currentYear"></span> | Noluthando Zilimbola-Mothata | South Africa ❤️</p>
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+        </div>
+    </footer>
+    <script src="../scripts/darkmode.js"></script>
+    <script src="script/lastmod.js"></script>  
+    <script src="../scripts/getDates.js"></script>
+        
+       
+</body>
+</html>
