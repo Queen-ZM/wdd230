@@ -20,9 +20,9 @@
         <span id="My-name">
             Noluthando Zilimbola-Mothata
         </span>
+        <div id="mode">
+        <button id="menu" aria-label="Name"></button>
     </header>
-
-    <button id="menu"></button>
 
     <nav>
         <ul class="navigation">
@@ -38,6 +38,17 @@
     </div>
     
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple1.webp" media="(max-width: 400px)">
+                <img src="images/temple.webp" alt="Johannesburg Temple" width="2" height="1">
+            </picture>
+            <div class="herotemple">
+                <p>
+                    Johannesburg Temple
+                </p>
+            </div>
+        </div>
         <h1>
             WDDD 230: Web Frontend Development
         </h1>
@@ -52,7 +63,7 @@
                 <ul id="ul">
                     <li>Week 1:<a href="week1/holygrail.html">Layout</a> | <a href="week1/mediaquery.html"> Media Query</a></li>
                     <li>Week 2:<a href="week2/images/jozi.jpg">Image</a> | <a href="https://codepen.io/uthando/pen/BaEoOBv"> Hamburger Menu</a> | <a href="week2/bom.html"> Dom Manipulation</a></li>
-                    <li>Week 3:<a href="#"></a></li>
+                    <li>Week 3:<a href="week3/images/landscape.webp"> WebP</a> | <a href="week3/lazyload.html"> Lazy Loading </a> <a href="week3/responsive-images.html"> Responsive Images</a> | <a href="week3/bom.html">Webp Storage API</a></li>
                     <li>Week 4:<a href="#"></a></li>
                     <li>Week 5:<a href="#"></a></li>
                     <li>Week 6:<a href="#"></a></li>
@@ -65,6 +76,12 @@
                 </div>
                 <p class="info-placeholder">Page Visits: <span id="visit-count">0</span></p>
             </section>
+            <div class="card wider3 map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8395.984473995326!2d27.889514494649795!3d-26.71622311858975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1695834979019!5m2!1sen!2sza"
+                    title="myFrame" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </main>
 
