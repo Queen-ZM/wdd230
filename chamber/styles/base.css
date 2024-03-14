@@ -95,6 +95,15 @@ header #logo img {
     border-radius: 100%;
 }
 
+header #mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
 header button {
     grid-column: 15 / 16;
     background-color: #1c98ed;

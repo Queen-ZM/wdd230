@@ -1,0 +1,9 @@
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}

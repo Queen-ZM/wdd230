@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff0f3;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    background-color: #14213D;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #333333;
+    color: white;
+}
+
+
+main section {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.main-info section p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.75rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+}
+
+.main-info section .colors h3 {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #000080;
+}
+
+.main-info section .colors1 h3 {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #333333;
+}
+
+.main-info section h3 {
+    padding: 2rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #14213D;
+    color: white;
+}
+
+.main-info section img {
+    width: 100%;
+    height: 600px;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+
+
+
+footer {
+    background-color: #14213D;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    line-height: 2.5;
+    font-family: 'Lora', serif;
+}
+
+footer #footer-sect p {
+    font-size: 18px;
+}
+
+
+
+#footer-sect p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    main .main-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main .main-info section:nth-child(4) {
+		display: block;
+	}
+
+    main .main-info section:nth-child(5) {
+		grid-column: span 2;
+	}
+
+
+    main .main-info section:nth-child(8) {
+        grid-column: span 2;
+    }
+
+
+
+
+
+}
