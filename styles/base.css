@@ -273,10 +273,19 @@ figcaption {
 
 /* Styles for the footer */
 footer {
-  text-align: center; /* Center the text */
-  font-size: 16px; /* Set the font size to 16px */
-  margin-top: 10px; /* Add some margin above the footer */
+  margin: 2rem auto;
+  background-color: #d5bdaf;
+  padding: 1rem;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Lora', serif;
 }
+
+#footer-sect p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
 
 #weather-card {
   display: flex;
