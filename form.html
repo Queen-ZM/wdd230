@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <img src="../images/Thando.webp" alt="picture-of-myself" width="640" height="360">
+        <h1>Noluthando Zilimbola-Mothata</h1>
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="Name"></button>
+        <ul class="navigation">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="chamber/index.html" tittle="Chamber">Chamber</a></li>
+            <li><a href="week1/chamber-site-plan.html" tittle="Site Plan">Site Plan</a></li>
+            <li><a href="form.html" tittle="Form">Form</a></li>
+        </ul>
+    </nav>
+     
+    <main>
+        <form action="record/record.html" method="get">
+            <legend>Personal Details</legend><br>
+            <label for="fname">Username:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    placeholder="Atleast 8 characters long  alpha-numeric characters" required></label><br><br>
+            <label for="pwd">Re-enter Password:</label>
+            <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must match the origional password"
+                    placeholder="Match origional password" required></label><br><br>
+            <label for="emailAddress">Email address</label><br />
+            <input id="emailAddress" type="email" size="64" maxlength="64" required placeholder="Enter your byui.edu email"
+                    pattern=".+@byui\.edu" title="Please provide your byui.edu email address" />
+            
+            <label for="tempB">Rate this page:</label><br />
+            <input type="range" id="tempB" name="temp" list="values" />
+            
+            <datalist id="values">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="4">5</option>
+              <option value="1">6</option>
+              <option value="2">7</option>
+              <option value="3">8</option>
+              <option value="4">9</option>
+              <option value="4">10</option>
+            </datalist>
+            <input type="submit">
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer-sect">
+            <p>&copy;<span id="currentYear"></span> | Name: Noluthando Zilimbola-Mothata | South Africa</p>
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+        </div>
+    </footer>
+    <script src="script/getdata.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+
+</body>
+</html>
