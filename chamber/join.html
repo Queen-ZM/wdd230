@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My City Chamber | Join</title>
+    <meta name="author" content="Noluthando Zilimbola-Mothata">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://queen-zm.github.io/wdd230/">
+    <meta property="og:image" content="https://queen-zm.github.io/wdd230/week2/images/jozi.jpg">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/large.css">
+    <link rel="stylesheet" href="styles/join.css">
+<body>
+
+    <header>
+        <img src="images/Thando.w.webp" alt="picture-of-myself" width="640" height="360">
+        <h1>Noluthando Zilimbola-Mothata</h1>
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="Name"></button>
+        <ul class="navigation">
+            <li><a href="index.html" title="Home"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html" title="Site Plan" target="_blank">Site Plan</a></li>
+            <li><a href="chamber of commerce/index.html" title="Chamber" target="_blank">Chamber</a></li>
+            <li><a href="https://byui.edu" target="_blank" title="BYU Idaho">BYU Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng&id=p13-p14#p13"
+                    title="Scripture" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+    <body>
+        <form action="thankyou.html" method="get">
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required>
+
+            <label for="title">Title/Position:</label>
+            <input type="text" name="title" id="title" pattern="[A-Za-z -]{7,}" title="Please enter at least 7 characters with only letters, hyphens, and spaces" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="example@example.com" required>
+
+            <label for="phone">Mobile Phone:</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <label for="orgName">Organization Name:</label>
+            <input type="text" name="orgName" id="orgName" required>
+
+            <label for="membershipLevel">Membership Level:</label>
+            <select name="membershipLevel" id="membershipLevel">
+                <option value="NP">NP Membership (No fee)</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+            </select>
+
+            <label for="orgDescription">Organization Description:</label>
+            <textarea name="orgDescription" id="orgDescription"></textarea>
+
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+
+           <input type="submit" value="Submit">
+        </form>
+
+    </body>
+
+    <footer>
+        <div id="footer-sect">
+            <p>&copy;<span id="currentYear"></span> | Name: Noluthando Zilimbola-Mothata | South Africa</p>
+            <p class="last-update">Last Modified: <span id="currentDateAndTime"></span></p>
+        </div>
+    </footer>
+    <script src="script/getdata.js"></script>
+    <script src="script/timestamp.js"></script>
+    <script src="script/lastmod.js"></script>
+</body>
+
+</html>

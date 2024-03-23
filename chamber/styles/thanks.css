@@ -1,0 +1,14 @@
+body {
+   
+    background-color: #f0f0f0; /* Background color of the page */
+}
+
+h1 {
+    color: purple; /* Text color of the <h1> element */
+    text-align: center;
+}
+
+p {
+   text-align: center; 
+   font-size: 20px;
+}
