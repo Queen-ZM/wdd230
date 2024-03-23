@@ -90,20 +90,6 @@ header #logo {
     align-self: center;
 }
 
-header #logo img {
-    width: 40%;
-    border-radius: 100%;
-}
-
-header #mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-	font-size: 2rem;
-}
-
 header button {
     grid-column: 15 / 16;
     background-color: #1c98ed;
@@ -166,14 +152,6 @@ nav ul li a {
     color: #000;
     font-family: "Fira Sans", sans-serif;
     font-weight: bold;
-}
-
-#menu::before {
-    content: "☰";
-}
-  
-#menu.open::before {
-    content: "❌";
 }
 
 .mode {
@@ -253,7 +231,7 @@ footer img {
         display: none;
     }
 
-    .checkbtn {
-        display: block;
+    .hamburger-menu {
+        display: flex;
     }
 }
