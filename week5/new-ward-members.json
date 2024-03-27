@@ -1,0 +1,33 @@
+{
+    "familyName": "Mothata",
+    "moveInDate": "2023-11-09",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Thabang Mothata",
+        "gender": "Male",
+        "birthdate": "1988-05-04"
+      },
+      {
+        "name": "Noluthando Mothata",
+        "gender": "Female",
+        "birthdate": "1991-10-22"
+      },
+      {
+        "name": "Rati Mothata",
+        "gender": "Female",
+        "birthdate": "2015-02-10"
+      },
+      {
+        "name": "Lonke Mothata",
+        "gender": "Female",
+        "birthdate": "2018-11-30"
+      },
+      {
+        "name": "Shama Mothata",
+        "gender": "Male",
+        "birthdate": "2024-01-28"
+      }
+    ]
+}
