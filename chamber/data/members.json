@@ -1,0 +1,76 @@
+{
+    "members": [
+      {
+        "name": "Spokie and Daughters",
+        "address": "7709 khayoane street Vosloorus",
+        "phone": "0737640364",
+        "website": "http://www.SpokieDaughters.com",
+        "image": "images/sad.w.webp",
+        "membershipLevel": "Gold",
+        "otherInfo": "Fashion house that is here to make you look like the million bucks."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      },
+      {
+        "name": "Vilakazi",
+        "address": "Vilakazi steet, Soweto",
+        "phone": "011 556 8204",
+        "website": "http://www.vilakazistreet.com",
+        "image": "images/vilakazi-street.w.webp",
+        "membershipLevel": "Silver",
+        "otherInfo": "Vibrant street that has a lot to offer."
+      }
+    ]
+}

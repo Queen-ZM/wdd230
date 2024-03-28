@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/directory.css">
     <link rel="icon" href="./images/logo.w.webp">
 </head>
 <body>
@@ -53,106 +54,21 @@
   </header>
 
   <main>
-    <div class="hero">
-      <picture>
-        <source srcset="images/wdd230S.webp" media="(max-widht: 500px)">
-        <source srcset="image/wdd230M.webp" media="(max-width 1000px)">
-        <img src="images/jozi1.jpg" alt="week6" width="2" height="1">
-      </picture>
-      <div class="herobutton">
-        <a href="join.html" title="join" clas="btn-primary">Join The Chamber</a>
+    <div class="toggle-view">
+        <label for="grid-view">Grid View</label>
+        <input type="radio" name="view" id="grid-view" checked>
+        <label for="list-view">List View</label>
+        <input type="radio" name="view" id="list-view">
+        <img src="" alt="" srcset="">
       </div>
-    </div>
-    
-    <div class="main">
-      <section>
-        <h2>
-          Events
-        </h2>
-        <h3>
-          My City Commerce
-        </h3>
-        <p>
-          Unite with us as we have our grand openingof my city Chamber 
-          of Commerce, Saturday @ 17h00 pm. 
-        </p>
-        <a href="#"></a>
-        <h3> 
-          Forum week
-        </h3>
-        <p>
-          Connect with other businesses that in your City
-        </p>
-        <a href="#">Register Now</a>
-      </section>
-      <section>
-        <h2>
-          Weather
-        </h2>
-        
-        <!----div id="weather-section"----->
-            <img id="weather-icon" src="#" alt="Weather Icon">
-            <p><span id="current-temperature">--</span></p>
-            <p><span id="current-description">--</span></p>
-            <h3>3-Day Forecast:</h3>
-            <ul id="forecast-list"></ul>
-              <!-- Forecast items will be added dynamically here -->
-          
-            <!--<p>Current Temperature: <span id="temperature">45°F</span></p>
-            <p>Current Wind Speed: <span id="windSpeed">8 mph</span></p>
-            <p>Wind Chill Factor: <span id="windChillValue">Calculating...</span></p>-->
-        <!----/div---->
-       
-      </section>
-    </div>       
-   
-
-    <div class="adverts">
-      <section>
-        <h3>
-          Spokie and Daughters
-        </h3>
-        <p>
-          "African Fashion Design's"
-        </p>
-        <img src="images/sad.w.webp" alt="S&D logo" width="60">
-
-        <p>+27 73 764 0364</p>
-        <p><span>https://queen-zm.github.io/wwr/s&d/home.html</span></p>
-      </section>
-      <section class="card-1">
-        <h3>
-          Gold Reef City
-        </h3>
-        <p><span>"The best Theme park in Africa"</span></p>
-        <img src="images/gold reef city.w.webp" alt="thankful" width="60">
-
-        <p>+27 11 248 6800</p>
-        <p><span>https://www.goldreefcity.co.za</span></p>
-      </section>
-      <section class="card-1">
-        <h3>
-          Vilakazi Street
-        </h3>
-        <p><span>"Come view the only street in the world<br>
-              that houses two Noble price winners"</span></p>
-        <img src="images/vilakazi-street.w.webp" alt="Logo" width="60">
-        <p>+27 11 720 5678</p>
-        <p><span>contact@vilakazistreet.com</span></p>
-      </section>
-    </div>
-
-    <div>
-      <div class="card wider3 map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8395.984473995326!2d27.889514494649795!3d-26.71622311858975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1695834979019!5m2!1sen!2sza" title="myFrame" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>  
+      <div id="members-container"></div> 
   </main>
 
   <footer>
 
     <div class="compani-info">
       <div class="footer-column">
-        <img src="./images/logo.w.webp" alt="Logo">
+        <img src="images/" alt="My City Chamber of Commerce logo">
       </div>
       <div class="footer-column">
         <h3>My City of commerce</h3>
@@ -181,6 +97,7 @@
     <script src="script/lastmod.js"></script>  
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/menu.js"></script>
+    <script src="script/directory.js"></script>
         
 </body>
 </html>
