@@ -9,11 +9,13 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://queen-zm.github.io/wdd230/">
     <meta property="og:image" content="https://queen-zm.github.io/wdd230/week2/images/jozi.jpg">
-    <link rel="icon" href="images/jozi1.jpg">
+    <link rel="icon" href="images/logo.w.webp">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="icon" href="./images/logo.w.webp">
+    <link rel="stylesheet" href="styles/thanks.css">
+    <link rel="icon" stylesheet="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F17221797-facebook-logo-png-transparent-background&psig=AOvVaw2rp6yaA0UaE76u84OWDYgl&ust=1697985050151000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDK8rGth4IDFQAAAAAdAAAAABAE">
+    <link rel="icon" stylesheet="https://cdn.mos.cms.futurecdn.net/6dDoc8GV9fYUPExgLYPqqT-1200-80.jpg">
 </head>
 <body>
     
@@ -26,7 +28,7 @@
   </div>
   <nav class="nav-links">
       <ul>
-          <li><a href="#">Home</a></li>
+
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
@@ -53,6 +55,10 @@
   </header>
 
   <main>
+    <div id="banner">
+      <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+      <span id="close-banner" onclick="closeBanner()">❌</span>
+    </div>
     <div class="hero">
       <picture>
         <source srcset="images/wdd230S.webp" media="(max-widht: 500px)">
@@ -138,7 +144,8 @@
     <div>
       <div class="card wider3 map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8395.984473995326!2d27.889514494649795!3d-26.71622311858975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1695834979019!5m2!1sen!2sza" title="myFrame" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>  
+    </div> 
+    
   </main>
 
   <footer>
@@ -170,10 +177,12 @@
 
   </footer>
 
-    <script src="../scripts/darkmode.js"></script>
-    <script src="script/lastmod.js"></script>  
-    <script src="../scripts/getDates.js"></script>
-    <script src="../scripts/menu.js"></script>
+  <script src="script/chamber.js"></script>
+  <script src="../scripts/darkmode.js"></script>
+  <script src="script/lastmod.js"></script>  
+  <script src="../scripts/getDates.js"></script>
+  <script src="../scripts/menu.js"></script>
+  <script src="script/weather.js"></script>
         
 </body>
 </html>
